@@ -1,0 +1,27 @@
+.dialog {
+  position: fixed;
+  top: 20%;
+  left: 47%;
+  height: 100px;
+  width: 250px;
+  z-index: 100000;
+  display: block;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 5px;
+}
+
+.overlay{
+  position:fixed;
+  inset:0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+body.overlay-active{
+  overflow: hidden;
+}
