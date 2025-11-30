@@ -394,7 +394,7 @@ export const HookMemo = () => {
         <>
             <hr></hr>
             <h4>▶ 메모화를 위한 샘플</h4>
-            {/* 값을 1씩 증가시키는 카운터 */}
+            {/* 값을 1씩 증가시키는 카운터.. */}
             <div>
                 <MyButton id="btn1" handleClick={increment}>카운트업</MyButton>
                 <MyCounter id="c1" value={count1}></MyCounter> /             
